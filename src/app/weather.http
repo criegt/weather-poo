@@ -1,0 +1,8 @@
+@uri = api.openweathermap.org/data/2.5/weather
+@api = 4c1264e704b36afc61e777128632990b
+@city = Moscow
+@country = ru
+
+
+###
+GET https://api.openweathermap.org/data/2.5/weather?q={{city}}},{{country}}&appid={{api}}&units=metric HTTP/1
